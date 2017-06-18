@@ -1,0 +1,83 @@
+%% Thesis Template of Chinese Academy of Sciences
+%% for using CASthesis package with LaTeX2e
+%% Created by Ling-Yun Wu <aloft@ctex.org>
+%% $Id: template.tex,v 1.10 2007/01/09 05:10:46 aloft Exp $
+\documentclass[pdflatex,notypeinfo]{CASthesis}
+\newif \ifnotblind
+\notblindtrue
+\graphicspath{{figures/}}
+%\hypersetup{colorlinks=false}
+\hypersetup{linkcolor=black,citecolor=black}
+\def\CJKunderlinecolor{\color{black}}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \confidential{}
+  \title{研究的题目}
+  \ifnotblind
+  \author{NAME IN ENGLISH}
+  \advisor{导师的名字~~~~~研究员~~~~~~中国科学院自动化研究所}
+  \advisorinstitute{导师的名字~~副研究员~~中国科学院自动化研究所}
+  \else
+  \author{}
+  \advisor{}
+  \advisorinstitute{}
+  \fi
+  \degree{博士}
+  \majordegree{工学博士}
+  \major{控制理论与控制工程}
+  \submitdate{2017~年~~4~月}
+  \institute{中国科学院自动化研究所}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \englishtitle{Name of research in English}
+  \ifnotblind
+  \englishauthor{Your name}
+  \englishadvisor{Your advisor's name}
+  \else
+  \englishauthor{}
+  \englishadvisor{}
+  \fi
+  \englishinstitute{Your institute, Chinese Academy of Sciences}
+  \englishdegree{Doctor}
+  \englishmajordegree{Engineering}
+  \englishdate{April, 2017}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \maketitle
+  \makeenglishtitle
+  \makedeclaration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+  \include{nonchapters/abstract}
+  \tableofcontents
+%  \listoftables
+%  \listoffigures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+    \include{chapters/chap01/chap01}
+    \include{chapters/chap02/chap02}
+    \include{chapters/chap03/chap03}
+    \include{chapters/chap04/chap04}
+    \include{chapters/chap05/chap05}
+    \include{chapters/chap06/chap06}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+    \renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}
+    \include{nonchapters/appendix01}
+    \include{nonchapters/appendix02}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+\begin{spacing}{1}
+  \small
+  \bibliographystyle{ref/myieeetr}
+  \bibliography{ref/refs}
+\end{spacing}
+
+\ifnotblind
+    \include{nonchapters/ack}
+    \include{nonchapters/resume}
+\else
+    \include{nonchapters/thanks-anonymous}
+    \include{nonchapters/resume-anonymous}
+\fi
+
+\end{document}

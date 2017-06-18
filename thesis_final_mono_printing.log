@@ -1,0 +1,1651 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.26)  21 MAR 2017 17:00
+entering extended mode
+**thesis_final_mono_printing.tex
+(D:\DissertationKiddee\thesis_final_mono_printing.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(C:\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(C:\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\CTEX\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2011/03/10 v0.4n Insert pages of external PDF documents (AM)
+
+(C:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\CTEX\MiKTeX\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count87
+\calc@Bcount=\count88
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count89
+\calc@Cskip=\skip45
+)
+(C:\CTEX\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\atbegshi.sty
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(C:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(C:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count90
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(C:\CTEX\MiKTeX\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2011/03/10 v0.4n Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks15
+\c@AM@survey=\count91
+\AM@templatesizebox=\box27
+)
+(D:\DissertationKiddee\thesis_final_mono_printing.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+\AtBeginShipoutBox=\box28
+
+(C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen107
+\scratchbox=\box29
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen108
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks17
+) <thesis_final.pdf, id=29, page=1, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 1>
+Package pdftex.def Info: thesis_final.pdf, page1 used on input line 8.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 1>
+Package pdftex.def Info: thesis_final.pdf, page1 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 1>
+Package pdftex.def Info: thesis_final.pdf, page1 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 1>
+Package pdftex.def Info: thesis_final.pdf, page1 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 1>
+Package pdftex.def Info: thesis_final.pdf, page1 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [1
+
+ <D:/DissertationKiddee/thesis_final.pdf{C:/CTEX/UserData/pdftex/config/pdftex.
+map{Unicode.sfd}{UGBK.sfd}}>]
+<thesis_final.pdf, id=178, page=2, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 2>
+Package pdftex.def Info: thesis_final.pdf, page2 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 2>
+Package pdftex.def Info: thesis_final.pdf, page2 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 2>
+Package pdftex.def Info: thesis_final.pdf, page2 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [2 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=182, page=3, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 3>
+Package pdftex.def Info: thesis_final.pdf, page3 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 3>
+Package pdftex.def Info: thesis_final.pdf, page3 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 3>
+Package pdftex.def Info: thesis_final.pdf, page3 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [3 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=186, page=4, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 4>
+Package pdftex.def Info: thesis_final.pdf, page4 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 4>
+Package pdftex.def Info: thesis_final.pdf, page4 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 4>
+Package pdftex.def Info: thesis_final.pdf, page4 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [4 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=190, page=5, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 5>
+Package pdftex.def Info: thesis_final.pdf, page5 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 5>
+Package pdftex.def Info: thesis_final.pdf, page5 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 5>
+Package pdftex.def Info: thesis_final.pdf, page5 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [5 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=206, page=6, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 6>
+Package pdftex.def Info: thesis_final.pdf, page6 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 6>
+Package pdftex.def Info: thesis_final.pdf, page6 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 6>
+Package pdftex.def Info: thesis_final.pdf, page6 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [6 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=210, page=7, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 7>
+Package pdftex.def Info: thesis_final.pdf, page7 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 7>
+Package pdftex.def Info: thesis_final.pdf, page7 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 7>
+Package pdftex.def Info: thesis_final.pdf, page7 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [7 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=239, page=8, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 8>
+Package pdftex.def Info: thesis_final.pdf, page8 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 8>
+Package pdftex.def Info: thesis_final.pdf, page8 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 8>
+Package pdftex.def Info: thesis_final.pdf, page8 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [8 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=243, page=9, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 9>
+Package pdftex.def Info: thesis_final.pdf, page9 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 9>
+Package pdftex.def Info: thesis_final.pdf, page9 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 9>
+Package pdftex.def Info: thesis_final.pdf, page9 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [9 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=252, page=10, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 10>
+Package pdftex.def Info: thesis_final.pdf, page10 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 10>
+Package pdftex.def Info: thesis_final.pdf, page10 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 10>
+Package pdftex.def Info: thesis_final.pdf, page10 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [10 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=261, page=11, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 11>
+Package pdftex.def Info: thesis_final.pdf, page11 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 11>
+Package pdftex.def Info: thesis_final.pdf, page11 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 11>
+Package pdftex.def Info: thesis_final.pdf, page11 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [11 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=270, page=12, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 12>
+Package pdftex.def Info: thesis_final.pdf, page12 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 12>
+Package pdftex.def Info: thesis_final.pdf, page12 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 12>
+Package pdftex.def Info: thesis_final.pdf, page12 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [12 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=274, page=13, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 13>
+Package pdftex.def Info: thesis_final.pdf, page13 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 13>
+Package pdftex.def Info: thesis_final.pdf, page13 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 13>
+Package pdftex.def Info: thesis_final.pdf, page13 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [13 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=279, page=14, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 14>
+Package pdftex.def Info: thesis_final.pdf, page14 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 14>
+Package pdftex.def Info: thesis_final.pdf, page14 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 14>
+Package pdftex.def Info: thesis_final.pdf, page14 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [14 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=283, page=15, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 15>
+Package pdftex.def Info: thesis_final.pdf, page15 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 15>
+Package pdftex.def Info: thesis_final.pdf, page15 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 15>
+Package pdftex.def Info: thesis_final.pdf, page15 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [15 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=287, page=17, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 17>
+Package pdftex.def Info: thesis_final.pdf, page17 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 17>
+Package pdftex.def Info: thesis_final.pdf, page17 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 17>
+Package pdftex.def Info: thesis_final.pdf, page17 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [16 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=291, page=18, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 18>
+Package pdftex.def Info: thesis_final.pdf, page18 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 18>
+Package pdftex.def Info: thesis_final.pdf, page18 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 18>
+Package pdftex.def Info: thesis_final.pdf, page18 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [17 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=295, page=19, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 19>
+Package pdftex.def Info: thesis_final.pdf, page19 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 19>
+Package pdftex.def Info: thesis_final.pdf, page19 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 19>
+Package pdftex.def Info: thesis_final.pdf, page19 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [18 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=299, page=20, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 20>
+Package pdftex.def Info: thesis_final.pdf, page20 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 20>
+Package pdftex.def Info: thesis_final.pdf, page20 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 20>
+Package pdftex.def Info: thesis_final.pdf, page20 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [19 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=305, page=21, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 21>
+Package pdftex.def Info: thesis_final.pdf, page21 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 21>
+Package pdftex.def Info: thesis_final.pdf, page21 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 21>
+Package pdftex.def Info: thesis_final.pdf, page21 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [20 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=309, page=22, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 22>
+Package pdftex.def Info: thesis_final.pdf, page22 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 22>
+Package pdftex.def Info: thesis_final.pdf, page22 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 22>
+Package pdftex.def Info: thesis_final.pdf, page22 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [21 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=316, page=23, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 23>
+Package pdftex.def Info: thesis_final.pdf, page23 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 23>
+Package pdftex.def Info: thesis_final.pdf, page23 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 23>
+Package pdftex.def Info: thesis_final.pdf, page23 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [22 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=321, page=25, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 25>
+Package pdftex.def Info: thesis_final.pdf, page25 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 25>
+Package pdftex.def Info: thesis_final.pdf, page25 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 25>
+Package pdftex.def Info: thesis_final.pdf, page25 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [23 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=327, page=26, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 26>
+Package pdftex.def Info: thesis_final.pdf, page26 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 26>
+Package pdftex.def Info: thesis_final.pdf, page26 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 26>
+Package pdftex.def Info: thesis_final.pdf, page26 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [24 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=334, page=30, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 30>
+Package pdftex.def Info: thesis_final.pdf, page30 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 30>
+Package pdftex.def Info: thesis_final.pdf, page30 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 30>
+Package pdftex.def Info: thesis_final.pdf, page30 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [25 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=341, page=31, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 31>
+Package pdftex.def Info: thesis_final.pdf, page31 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 31>
+Package pdftex.def Info: thesis_final.pdf, page31 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 31>
+Package pdftex.def Info: thesis_final.pdf, page31 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [26 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=346, page=32, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 32>
+Package pdftex.def Info: thesis_final.pdf, page32 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 32>
+Package pdftex.def Info: thesis_final.pdf, page32 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 32>
+Package pdftex.def Info: thesis_final.pdf, page32 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [27 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=351, page=33, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 33>
+Package pdftex.def Info: thesis_final.pdf, page33 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 33>
+Package pdftex.def Info: thesis_final.pdf, page33 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 33>
+Package pdftex.def Info: thesis_final.pdf, page33 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [28 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=356, page=35, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 35>
+Package pdftex.def Info: thesis_final.pdf, page35 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 35>
+Package pdftex.def Info: thesis_final.pdf, page35 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 35>
+Package pdftex.def Info: thesis_final.pdf, page35 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [29 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=372, page=36, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 36>
+Package pdftex.def Info: thesis_final.pdf, page36 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 36>
+Package pdftex.def Info: thesis_final.pdf, page36 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 36>
+Package pdftex.def Info: thesis_final.pdf, page36 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [30 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=396, page=37, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 37>
+Package pdftex.def Info: thesis_final.pdf, page37 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 37>
+Package pdftex.def Info: thesis_final.pdf, page37 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 37>
+Package pdftex.def Info: thesis_final.pdf, page37 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [31 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=402, page=39, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 39>
+Package pdftex.def Info: thesis_final.pdf, page39 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 39>
+Package pdftex.def Info: thesis_final.pdf, page39 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 39>
+Package pdftex.def Info: thesis_final.pdf, page39 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [32 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=413, page=41, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 41>
+Package pdftex.def Info: thesis_final.pdf, page41 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 41>
+Package pdftex.def Info: thesis_final.pdf, page41 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 41>
+Package pdftex.def Info: thesis_final.pdf, page41 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [33 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=423, page=42, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 42>
+Package pdftex.def Info: thesis_final.pdf, page42 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 42>
+Package pdftex.def Info: thesis_final.pdf, page42 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 42>
+Package pdftex.def Info: thesis_final.pdf, page42 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [34 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=428, page=43, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 43>
+Package pdftex.def Info: thesis_final.pdf, page43 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 43>
+Package pdftex.def Info: thesis_final.pdf, page43 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 43>
+Package pdftex.def Info: thesis_final.pdf, page43 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [35 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=438, page=44, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 44>
+Package pdftex.def Info: thesis_final.pdf, page44 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 44>
+Package pdftex.def Info: thesis_final.pdf, page44 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 44>
+Package pdftex.def Info: thesis_final.pdf, page44 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [36 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=443, page=46, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 46>
+Package pdftex.def Info: thesis_final.pdf, page46 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 46>
+Package pdftex.def Info: thesis_final.pdf, page46 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 46>
+Package pdftex.def Info: thesis_final.pdf, page46 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [37 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=454, page=50, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 50>
+Package pdftex.def Info: thesis_final.pdf, page50 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 50>
+Package pdftex.def Info: thesis_final.pdf, page50 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 50>
+Package pdftex.def Info: thesis_final.pdf, page50 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [38 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=459, page=51, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 51>
+Package pdftex.def Info: thesis_final.pdf, page51 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 51>
+Package pdftex.def Info: thesis_final.pdf, page51 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 51>
+Package pdftex.def Info: thesis_final.pdf, page51 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [39 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=464, page=56, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 56>
+Package pdftex.def Info: thesis_final.pdf, page56 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 56>
+Package pdftex.def Info: thesis_final.pdf, page56 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 56>
+Package pdftex.def Info: thesis_final.pdf, page56 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [40 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=469, page=57, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 57>
+Package pdftex.def Info: thesis_final.pdf, page57 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 57>
+Package pdftex.def Info: thesis_final.pdf, page57 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 57>
+Package pdftex.def Info: thesis_final.pdf, page57 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [41 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=474, page=58, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 58>
+Package pdftex.def Info: thesis_final.pdf, page58 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 58>
+Package pdftex.def Info: thesis_final.pdf, page58 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 58>
+Package pdftex.def Info: thesis_final.pdf, page58 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [42 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=480, page=60, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 60>
+Package pdftex.def Info: thesis_final.pdf, page60 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 60>
+Package pdftex.def Info: thesis_final.pdf, page60 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 60>
+Package pdftex.def Info: thesis_final.pdf, page60 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [43 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=491, page=61, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 61>
+Package pdftex.def Info: thesis_final.pdf, page61 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 61>
+Package pdftex.def Info: thesis_final.pdf, page61 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 61>
+Package pdftex.def Info: thesis_final.pdf, page61 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [44 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=501, page=63, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 63>
+Package pdftex.def Info: thesis_final.pdf, page63 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 63>
+Package pdftex.def Info: thesis_final.pdf, page63 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 63>
+Package pdftex.def Info: thesis_final.pdf, page63 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [45 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=511, page=64, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 64>
+Package pdftex.def Info: thesis_final.pdf, page64 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 64>
+Package pdftex.def Info: thesis_final.pdf, page64 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 64>
+Package pdftex.def Info: thesis_final.pdf, page64 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [46 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=517, page=66, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 66>
+Package pdftex.def Info: thesis_final.pdf, page66 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 66>
+Package pdftex.def Info: thesis_final.pdf, page66 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 66>
+Package pdftex.def Info: thesis_final.pdf, page66 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [47 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=522, page=68, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 68>
+Package pdftex.def Info: thesis_final.pdf, page68 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 68>
+Package pdftex.def Info: thesis_final.pdf, page68 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 68>
+Package pdftex.def Info: thesis_final.pdf, page68 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [48 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=529, page=69, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 69>
+Package pdftex.def Info: thesis_final.pdf, page69 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 69>
+Package pdftex.def Info: thesis_final.pdf, page69 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 69>
+Package pdftex.def Info: thesis_final.pdf, page69 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [49 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=535, page=72, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 72>
+Package pdftex.def Info: thesis_final.pdf, page72 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 72>
+Package pdftex.def Info: thesis_final.pdf, page72 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 72>
+Package pdftex.def Info: thesis_final.pdf, page72 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [50 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=540, page=74, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 74>
+Package pdftex.def Info: thesis_final.pdf, page74 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 74>
+Package pdftex.def Info: thesis_final.pdf, page74 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 74>
+Package pdftex.def Info: thesis_final.pdf, page74 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [51 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=546, page=78, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 78>
+Package pdftex.def Info: thesis_final.pdf, page78 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 78>
+Package pdftex.def Info: thesis_final.pdf, page78 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 78>
+Package pdftex.def Info: thesis_final.pdf, page78 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [52 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=566, page=83, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 83>
+Package pdftex.def Info: thesis_final.pdf, page83 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 83>
+Package pdftex.def Info: thesis_final.pdf, page83 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 83>
+Package pdftex.def Info: thesis_final.pdf, page83 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [53 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=571, page=84, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 84>
+Package pdftex.def Info: thesis_final.pdf, page84 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 84>
+Package pdftex.def Info: thesis_final.pdf, page84 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 84>
+Package pdftex.def Info: thesis_final.pdf, page84 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [54 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=576, page=90, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 90>
+Package pdftex.def Info: thesis_final.pdf, page90 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 90>
+Package pdftex.def Info: thesis_final.pdf, page90 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 90>
+Package pdftex.def Info: thesis_final.pdf, page90 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [55 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=582, page=91, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 91>
+Package pdftex.def Info: thesis_final.pdf, page91 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 91>
+Package pdftex.def Info: thesis_final.pdf, page91 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 91>
+Package pdftex.def Info: thesis_final.pdf, page91 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [56 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=587, page=94, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 94>
+Package pdftex.def Info: thesis_final.pdf, page94 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 94>
+Package pdftex.def Info: thesis_final.pdf, page94 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 94>
+Package pdftex.def Info: thesis_final.pdf, page94 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [57 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=593, page=95, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 95>
+Package pdftex.def Info: thesis_final.pdf, page95 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 95>
+Package pdftex.def Info: thesis_final.pdf, page95 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 95>
+Package pdftex.def Info: thesis_final.pdf, page95 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [58 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=598, page=97, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 97>
+Package pdftex.def Info: thesis_final.pdf, page97 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 97>
+Package pdftex.def Info: thesis_final.pdf, page97 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 97>
+Package pdftex.def Info: thesis_final.pdf, page97 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [59 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=603, page=104, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 104>
+Package pdftex.def Info: thesis_final.pdf, page104 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 104>
+Package pdftex.def Info: thesis_final.pdf, page104 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 104>
+Package pdftex.def Info: thesis_final.pdf, page104 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [60 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=608, page=105, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 105>
+Package pdftex.def Info: thesis_final.pdf, page105 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 105>
+Package pdftex.def Info: thesis_final.pdf, page105 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 105>
+Package pdftex.def Info: thesis_final.pdf, page105 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [61 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=614, page=106, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 106>
+Package pdftex.def Info: thesis_final.pdf, page106 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 106>
+Package pdftex.def Info: thesis_final.pdf, page106 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 106>
+Package pdftex.def Info: thesis_final.pdf, page106 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [62 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=619, page=108, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 108>
+Package pdftex.def Info: thesis_final.pdf, page108 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 108>
+Package pdftex.def Info: thesis_final.pdf, page108 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 108>
+Package pdftex.def Info: thesis_final.pdf, page108 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [63 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=625, page=109, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 109>
+Package pdftex.def Info: thesis_final.pdf, page109 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 109>
+Package pdftex.def Info: thesis_final.pdf, page109 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 109>
+Package pdftex.def Info: thesis_final.pdf, page109 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [64 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=636, page=111, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 111>
+Package pdftex.def Info: thesis_final.pdf, page111 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 111>
+Package pdftex.def Info: thesis_final.pdf, page111 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 111>
+Package pdftex.def Info: thesis_final.pdf, page111 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [65 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=641, page=114, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 114>
+Package pdftex.def Info: thesis_final.pdf, page114 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 114>
+Package pdftex.def Info: thesis_final.pdf, page114 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 114>
+Package pdftex.def Info: thesis_final.pdf, page114 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [66 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=646, page=121, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 121>
+Package pdftex.def Info: thesis_final.pdf, page121 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 121>
+Package pdftex.def Info: thesis_final.pdf, page121 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 121>
+Package pdftex.def Info: thesis_final.pdf, page121 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [67 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=652, page=122, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 122>
+Package pdftex.def Info: thesis_final.pdf, page122 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 122>
+Package pdftex.def Info: thesis_final.pdf, page122 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 122>
+Package pdftex.def Info: thesis_final.pdf, page122 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [68 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=657, page=125, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 125>
+Package pdftex.def Info: thesis_final.pdf, page125 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 125>
+Package pdftex.def Info: thesis_final.pdf, page125 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 125>
+Package pdftex.def Info: thesis_final.pdf, page125 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [69 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=662, page=126, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 126>
+Package pdftex.def Info: thesis_final.pdf, page126 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 126>
+Package pdftex.def Info: thesis_final.pdf, page126 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 126>
+Package pdftex.def Info: thesis_final.pdf, page126 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [70 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=667, page=127, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 127>
+Package pdftex.def Info: thesis_final.pdf, page127 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 127>
+Package pdftex.def Info: thesis_final.pdf, page127 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 127>
+Package pdftex.def Info: thesis_final.pdf, page127 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [71 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=672, page=128, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 128>
+Package pdftex.def Info: thesis_final.pdf, page128 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 128>
+Package pdftex.def Info: thesis_final.pdf, page128 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 128>
+Package pdftex.def Info: thesis_final.pdf, page128 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [72 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=677, page=129, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 129>
+Package pdftex.def Info: thesis_final.pdf, page129 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 129>
+Package pdftex.def Info: thesis_final.pdf, page129 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 129>
+Package pdftex.def Info: thesis_final.pdf, page129 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [73 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=683, page=130, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 130>
+Package pdftex.def Info: thesis_final.pdf, page130 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 130>
+Package pdftex.def Info: thesis_final.pdf, page130 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 130>
+Package pdftex.def Info: thesis_final.pdf, page130 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [74 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=688, page=131, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 131>
+Package pdftex.def Info: thesis_final.pdf, page131 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 131>
+Package pdftex.def Info: thesis_final.pdf, page131 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 131>
+Package pdftex.def Info: thesis_final.pdf, page131 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [75 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=693, page=132, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 132>
+Package pdftex.def Info: thesis_final.pdf, page132 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 132>
+Package pdftex.def Info: thesis_final.pdf, page132 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 132>
+Package pdftex.def Info: thesis_final.pdf, page132 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [76 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=698, page=133, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 133>
+Package pdftex.def Info: thesis_final.pdf, page133 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 133>
+Package pdftex.def Info: thesis_final.pdf, page133 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 133>
+Package pdftex.def Info: thesis_final.pdf, page133 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [77 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=703, page=134, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 134>
+Package pdftex.def Info: thesis_final.pdf, page134 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 134>
+Package pdftex.def Info: thesis_final.pdf, page134 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 134>
+Package pdftex.def Info: thesis_final.pdf, page134 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [78 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=708, page=135, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 135>
+Package pdftex.def Info: thesis_final.pdf, page135 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 135>
+Package pdftex.def Info: thesis_final.pdf, page135 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 135>
+Package pdftex.def Info: thesis_final.pdf, page135 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [79 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=719, page=136, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 136>
+Package pdftex.def Info: thesis_final.pdf, page136 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 136>
+Package pdftex.def Info: thesis_final.pdf, page136 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 136>
+Package pdftex.def Info: thesis_final.pdf, page136 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [80 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=724, page=137, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 137>
+Package pdftex.def Info: thesis_final.pdf, page137 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 137>
+Package pdftex.def Info: thesis_final.pdf, page137 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 137>
+Package pdftex.def Info: thesis_final.pdf, page137 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [81 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=729, page=138, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 138>
+Package pdftex.def Info: thesis_final.pdf, page138 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 138>
+Package pdftex.def Info: thesis_final.pdf, page138 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 138>
+Package pdftex.def Info: thesis_final.pdf, page138 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [82 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=734, page=139, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 139>
+Package pdftex.def Info: thesis_final.pdf, page139 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 139>
+Package pdftex.def Info: thesis_final.pdf, page139 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 139>
+Package pdftex.def Info: thesis_final.pdf, page139 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [83 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=739, page=140, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 140>
+Package pdftex.def Info: thesis_final.pdf, page140 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 140>
+Package pdftex.def Info: thesis_final.pdf, page140 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 140>
+Package pdftex.def Info: thesis_final.pdf, page140 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [84 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=744, page=141, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 141>
+Package pdftex.def Info: thesis_final.pdf, page141 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 141>
+Package pdftex.def Info: thesis_final.pdf, page141 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 141>
+Package pdftex.def Info: thesis_final.pdf, page141 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [85 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=750, page=142, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 142>
+Package pdftex.def Info: thesis_final.pdf, page142 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 142>
+Package pdftex.def Info: thesis_final.pdf, page142 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 142>
+Package pdftex.def Info: thesis_final.pdf, page142 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [86 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=755, page=143, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 143>
+Package pdftex.def Info: thesis_final.pdf, page143 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 143>
+Package pdftex.def Info: thesis_final.pdf, page143 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 143>
+Package pdftex.def Info: thesis_final.pdf, page143 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [87 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=760, page=144, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 144>
+Package pdftex.def Info: thesis_final.pdf, page144 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 144>
+Package pdftex.def Info: thesis_final.pdf, page144 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 144>
+Package pdftex.def Info: thesis_final.pdf, page144 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [88 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=765, page=145, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 145>
+Package pdftex.def Info: thesis_final.pdf, page145 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 145>
+Package pdftex.def Info: thesis_final.pdf, page145 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 145>
+Package pdftex.def Info: thesis_final.pdf, page145 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [89 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=770, page=146, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 146>
+Package pdftex.def Info: thesis_final.pdf, page146 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 146>
+Package pdftex.def Info: thesis_final.pdf, page146 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 146>
+Package pdftex.def Info: thesis_final.pdf, page146 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [90 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=775, page=147, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 147>
+Package pdftex.def Info: thesis_final.pdf, page147 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 147>
+Package pdftex.def Info: thesis_final.pdf, page147 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 147>
+Package pdftex.def Info: thesis_final.pdf, page147 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [91 <D:/DissertationKiddee/thesis_final.pdf>]
+<thesis_final.pdf, id=781, page=148, 597.50829pt x 845.0471pt>
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 148>
+Package pdftex.def Info: thesis_final.pdf, page148 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+ <use thesis_final.pdf, page 148>
+Package pdftex.def Info: thesis_final.pdf, page148 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: thesis_final.pdf Graphic file (type pdf)
+
+<use thesis_final.pdf, page 148>
+Package pdftex.def Info: thesis_final.pdf, page148 used on input line 8.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [92 <D:/DissertationKiddee/thesis_final.pdf>]
+(D:\DissertationKiddee\thesis_final_mono_printing.aux) ) 
+Here is how much of TeX's memory you used:
+ 2611 strings out of 495354
+ 38684 string characters out of 3183859
+ 87356 words of memory out of 3000000
+ 5798 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 40i,18n,44p,266b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/CTEX/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/CTEX/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/CTEX/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/CTEX/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/CTEX/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pf
+b><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis_final_mono_printing.pdf (92 pages, 5130860 bytes).
+PDF statistics:
+ 810 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 601 words of extra memory for PDF output out of 10000 (max. 10000000)
+

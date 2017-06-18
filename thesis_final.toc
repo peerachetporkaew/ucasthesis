@@ -1,0 +1,21 @@
+\let \CTEX@spaceChar \relax 
+\contentsline {chapter}{ժ\CTEX@spaceChar \CTEX@spaceChar Ҫ}{i}{chapter*.1}
+\contentsline {chapter}{Abstract}{iii}{chapter*.2}
+\contentsline {chapter}{Contents}{v}{chapter*.3}
+\contentsline {chapter}{\numberline {Chapter 1\hspace {0.3em}}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}
+\contentsline {chapter}{\numberline {Chapter 2\hspace {0.3em}}Chapter 2}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}
+\contentsline {chapter}{\numberline {Chapter 3\hspace {0.3em}}Chapter3}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{5}{section.3.1}
+\contentsline {chapter}{\numberline {Chapter 4\hspace {0.3em}}Chapter 4}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{7}{section.4.1}
+\contentsline {chapter}{\numberline {Chapter 5\hspace {0.3em}}Chapter 5}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{9}{section.5.1}
+\contentsline {chapter}{\numberline {Chapter 6\hspace {0.3em}}Chapter 6}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}Conclusion}{11}{section.6.1}
+\contentsline {chapter}{\numberline {Appendix A\hspace {0.3em}}Appendix 1}{13}{appendix.A}
+\contentsline {chapter}{\numberline {Appendix B\hspace {0.3em}}Appendix 2}{15}{appendix.B}
+\contentsline {chapter}{Bibliography}{17}{appendix*.5}
+\contentsline {chapter}{Acknowledgements}{19}{appendix*.6}
+\contentsline {chapter}{Brief biography and publications}{21}{appendix*.7}

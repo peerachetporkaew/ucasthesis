@@ -1,0 +1,654 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>EPS-conv Help</title>
+<style type="text/css">
+<!--
+   body      {color:black;background-color:white;}
+   a:link    {color:blue;}
+   a:active  {color:red;}
+   a:visited {color:purple;}
+   h1        {color:teal;}
+   h2        {background-color:aqua;}
+   h3        {text-decoration:underline;}
+   h4        {font-style:italic;}
+-->
+</style>
+</head>
+
+<body>
+<h1>EPS-conv</h1>
+<p>Version 3.06 (2007/05/26)<br>
+Copyright(C) 2000-2007 H. Terashima<br>
+All rights reserved.</p>
+
+<hr>
+
+<h2>目次</h2>
+
+<ul>
+<li><a href="#overview">概要</a></li>
+<li><a href="#update">今回の更新内容</a></li>
+<li><a href="#tutorial">とりあえず使うには</a></li>
+<li><a href="#manual">操作方法</a>
+  <ul>
+  <li><a href="#mode">変換の設定</a></li>
+  <li><a href="#doit">変換の実行</a></li>
+  <li><a href="#needlv">必要PostScriptレベル</a></li>
+  <li><a href="#susie">Susieプラグインについて</a></li>
+  <li><a href="#cmdline">コマンドラインからの起動</a></li>
+  </ul>
+</li>
+<li><a href="#console">コンソール版実行ファイル</a></li>
+<li><a href="#support">サポート</a></li>
+<li><a href="#faq">よくある質問</a></li>
+</ul>
+
+<hr>
+
+<h2><a name="overview">概要</a></h2>
+
+<p>このEPS-convはいろいろな形式の画像ファイルをEPS(Encapsulated
+PostScript)形式に変換するためのプログラムです。TeXで書かれた
+文章に貼り付ける絵を作成することができます。</p>
+
+<p>標準で対応している画像形式は</p>
+
+<blockquote>
+<table  border="1" summary="対応形式" >
+<tr>
+<th abbr="形式" >画像形式</th>
+<th abbr="説明" >説明</th>
+<th abbr="拡張子" >拡張子</th>
+</tr>
+<tr>
+<td>BMP形式</td>
+<td>Windows標準の4,8,16,24,32bitのデータ<br>
+RLE圧縮, OS/2形式も可</td>
+<td>BMP,DIB,RLE</td>
+</tr>
+<tr>
+<td>JPEG形式</td>
+<td>JFIF標準のJPEGデータ<br>
+グレースケール, プログレッシブ, CMYKも可</td>
+<td>JPG,JPEG,JPE</td>
+</tr>
+<tr>
+<td>PNG形式</td>
+<td>Portable Network Graphics形式のデータ</td>
+<td>PNG</td>
+</tr>
+<tr>
+<td>GIF形式</td>
+<td>GIF87a形式やGIF89a形式のデータ<br>
+インターレースも可, アニメーションは第一コマ目のみ</td>
+<td>GIF</td>
+</tr>
+<tr>
+<td>MAG形式</td>
+<td>MPSなどのMAG形式のデータ<br>
+16色, 256色のどちらでも可</td>
+<td>MAG</td>
+</tr>
+</table>
+</blockquote>
+
+<p>です。さらに、Susieプラグインによりその他の形式にも対応します。</p>
+
+<p>ASCII85, RunLength, DCT, Flateなどの各種フィルターにより
+データを圧縮することもできます。</p>
+
+<p>JPEG形式に対してはjpeg2psのようなラッパーとしての動作も可能です。</p>
+
+<hr>
+
+<h2><a name="update">今回の更新内容</a></h2>
+
+<p>Version 3.05 ---&gt; 3.06</p>
+
+<ul>
+<li>imgctl.hpiのバージョンアップ Version 1.24</li>
+<li>変換時に作成した一時ファイルを残すようにした</li>
+<li>画像のドラッグ＆ドロップができることをウインドウに明記</li>
+<li>デフォルトでカラー、イメージ補間ありにするようにした</li>
+<li>アイコンを変更</li>
+</ul>
+
+<hr>
+
+<h2><a name="tutorial">とりあえず使うには</a></h2>
+
+<ol>
+<li>実行ファイルEPS-conv.exeを起動してください。</li>
+<li>ウインドウでどう変換するかを設定してください。</li>
+<li>ウインドウに変換したい画像ファイル（複数可）
+をドラッグ＆ドロップしてください。</li>
+<li>元画像と同じ場所に拡張子が.epsのファイルができます。</li>
+</ol>
+
+<hr>
+
+<h2><a name="manual">操作方法</a></h2>
+
+<h3><a name="mode">変換の設定</a></h3>
+
+<p>まず、ウインドウで変換の設定を行ってください。
+設定した内容は終了時に自動的にEPS-conv.ini
+というファイルに保存されて次回起動時には読み込まれます。
+具体的な項目は以下の通りです。</p>
+
+<h4>モード</h4>
+
+<p>モードとして「通常変換」と「ラッパー」が選択できます。
+通常は「通常変換」を選択すればよいのですが、
+次の条件を満たす場合には「ラッパー」を使うことができます。</p>
+<ul>
+<li>入力ファイルがJPEG形式である。</li>
+<li>色数や解像度を変更しない。</li>
+</ul>
+
+<p>画像の劣化がなくファイルサイズも比較的小さいままで
+EPSファイルにすることができるので試してみてください。
+（※「ラッパー」の
+<a href="#needlv">必要PostScriptレベル</a>はLevel 2以上。）</p>
+
+<h4>白黒／カラー</h4>
+
+<p>出力を白黒にするかカラーにするか選択できます。
+（※カラーの
+<a href="#needlv">必要PostScriptレベル</a>はLevel 1 CMYK拡張以上。）</p>
+
+<h4>色の階調</h4>
+
+<p>色の階調として2階調、4階調、16階調、256階調から選択できます。
+これは1つの点の色を何段階で表現するかということです。
+<em>当然、階調が多いほど画質は良くなりますが
+その分出力されるファイルのサイズが大きくなります。</em>
+参考までにサイズと色数の関係を下の表に示しておきます。
+（サイズは白黒2階調の時を1としたものです。）</p>
+
+<blockquote>
+<table  border="1" width="320" summary="サイズと色数" >
+<tr>
+<th abbr="階調" >色の階調</th>
+<th abbr="サイズ" >サイズ</th>
+<th abbr="色数" >色数</th>
+</tr>
+<tr>
+<td align="center">白黒2階調</td>
+<td align="right">1</td><td align="right">2</td>
+</tr>
+<tr>
+<td align="center">白黒4階調</td>
+<td align="right">2</td><td align="right">4</td>
+</tr>
+<tr>
+<td align="center">白黒16階調</td>
+<td align="right">4</td><td align="right">16</td>
+</tr>
+<tr>
+<td align="center">白黒256階調</td>
+<td align="right">8</td><td align="right">256</td>
+</tr>
+<tr>
+<td align="center">カラー2階調</td>
+<td align="right">3</td><td align="right">8</td>
+</tr>
+<tr>
+<td align="center">カラー4階調</td>
+<td align="right">6</td><td align="right">64</td>
+</tr>
+<tr>
+<td align="center">カラー16階調</td>
+<td align="right">12</td><td align="right">4096</td>
+</tr>
+<tr>
+<td align="center">カラー256階調</td>
+<td align="right">24</td><td align="right">16777216</td>
+</tr>
+</table>
+</blockquote>
+
+<h4>反転</h4>
+
+<p>チェックボックスでいろいろな反転をすることができます。
+可能な反転は左右反転、上下反転、ネガポジ反転です。</p>
+
+<h4>解像度</h4>
+
+<p>解像度を設定することができます。
+1%から100%までの正の整数で指定してください。
+その値で画像を縮小してから変換して元の大きさに拡大するので、
+画質は落ちますが変換後のファイルサイズを小さくすることができます。</p>
+
+<h4>イメージ補間</h4>
+
+<p>イメージを滑らかにしてギザギザを目立たなくします。
+（※イメージ補間の
+<a href="#needlv">必要PostScriptレベル</a>はLevel 2以上。）</p>
+
+<h4>圧縮</h4>
+<p>出力されるデータを圧縮します。
+ASCII85、RLE圧縮、DCT圧縮、Flate圧縮から選択できます。
+特徴は以下の通りです。</p>
+
+<blockquote>
+<table  border="1" width="560" summary="圧縮の形式" >
+<tr>
+<th abbr="圧縮形式" >圧縮形式</th>
+<th abbr="圧縮率" >圧縮率</th>
+<th abbr="画像劣化" >画像の劣化</th>
+<th abbr="備考" >備考</th>
+</tr>
+<tr>
+<td align="center">ASCII85</td>
+<td align="center">5/8</td><td align="center">なし</td>
+<td align="left">圧縮率は固定</td>
+</tr>
+<tr>
+<td align="center">RLE圧縮</td>
+<td align="center">低</td><td align="center">なし</td>
+<td align="left">単調な画像ほど有効</td>
+</tr>
+<tr>
+<td align="center">DCT圧縮</td>
+<td align="center">高</td><td align="center">あり
+<br>（線が滲む）</td>
+<td align="left">品質で圧縮率と劣化の度合いを調節できる<br>
+（1から100、小さいほど低画質高圧縮）
+</td>
+</tr>
+<tr>
+<td align="center">Flate圧縮</td>
+<td align="center">中</td><td align="center">なし</td>
+<td align="left">必要PostScriptレベルはLevel 3以上</td>
+</tr>
+</table>
+</blockquote>
+
+<p>どれが最も良いかは元の画像や画質の許容範囲によるため
+一概には言えません。いろいろ試してみてください。
+（※ASCII85、RLE圧縮、DCT圧縮の
+<a href="#needlv">必要PostScriptレベル</a>はLevel 2以上。
+Flate圧縮はLevel 3以上。）</p>
+
+<h3><a name="doit">変換の実行</a></h3>
+
+<p>メニューの「ファイル(F)」－「開く(O)」
+でファイルを指定するとすぐに変換が始まります。
+出力されるファイルは元の画像と同じフォルダに作られます。
+ファイル名は拡張子を.epsに変えたものとなります。
+既にその名前のファイルが存在するならば
+既存のファイルの拡張子を.eps.bakに変更しバックアップします。
+「オプション(O)」－「上書きする(O)」にチェックすれば
+バックアップファイルを作らずにそのまま上書きします。</p>
+
+<p>ウインドウへの
+ドラッグ＆ドロップでもファイルを指定することができます。
+この場合には複数のファイルを一気に変換することができます。</p>
+
+<p>ショートカットへドラッグ＆ドロップした場合には
+<a href="#cmdline">コマンドラインからの起動</a>
+という扱いになりますのでそちらを参照してください。</p>
+
+<h3><a name="needlv">必要PostScriptレベル</a></h3>
+<p>ウインドウの下のステータスバーに現在の設定で
+出力されたEPSファイルに必要なPostScriptレベルが表示されます。
+つまり、そのEPSファイルを印刷するためにはプリンタ側が
+そのレベルのPostScript言語に対応している必要があります。
+レベルには</p>
+
+<p>1 &#8834; 1 + CMYK拡張 &#8834; 2  &#8834; 3 </p>
+
+<p>の関係があります。
+今時のPostScriptプリンタなら
+大体はLevel 3に対応しているとは思います。
+画面に表示したり非PostScriptプリンタで印刷したりするための
+<a href="#gsview">GSview</a>もLevel 3に対応しています。
+そのため、あまり気にする必要はないかもしれませんが、
+他人とファイルのやり取りをするときには
+心に留めておいてください。</p>
+
+<h3><a name="susie">Susieプラグインについて</a></h3>
+
+<p>Susieプラグインは画像ビューアーSusie（たけちん氏作）
+において画像を表示するためのプラグインですが、
+それ以外のアプリケーションからも呼び出すことができるため
+広く使われています。
+EPS-convもSusieプラグインに対応していますので、
+それによって様々な画像形式のものが変換できるようになります。
+下記のWebページからリンクをたどって行って、
+目的の画像形式を表示できるプラグインを入手してください。
+ただし、同じ画像形式に対して
+複数のプラグインが存在することがあるので注意してください。
+一口に同じ画像形式といってもさまざまなバリエーションがあることがあり
+それぞれ守備範囲が異なる場合があります。</p>
+
+<ul>
+<li><a href="http://www.digitalpad.co.jp/~takechin/">
+Susieの部屋</a></li>
+<li><a href="http://www.vector.co.jp/vpack/filearea/win95/art/graphics/loader/susie/">Vector</a></li>
+<li><a href="http://www2f.biglobe.ne.jp/~kana/link.html">
+Susie関連のリンク集</a></li>
+</ul>
+
+<p>拡張子が.spiのファイルを適当なフォルダに置き、
+メニューの「オプション(O)」－「Susieプラグイン(S)」
+でそのフォルダを指定しておいてください。
+起動時に指定されたフォルダをチェックしてSusieプラグインを
+ロードします。もし指定されたフォルダにSusieプラグインがなければ、
+Susieのレジストリにあるフォルダもチェックします。</p>
+
+<h3><a name="cmdline">コマンドラインからの起動</a></h3>
+
+<p>コマンドラインに（フォルダ名も含めた）ファイル名を指定すれば、
+起動と同時にEPS-conv.iniの設定に従って変換します。
+ファイル名やフォルダ名に空白が含まれる場合には""で囲んでください。
+ファイル名に対してはワイルドカード"*"を使うこともできます。
+オプションには/w（最小化起動）と/a（変換後自動終了）が指定できます。</p>
+
+<pre><code>     EPS-conv.exe D:\foo\test.bmp D:\foo\test2.jpg
+     EPS-conv.exe "C:\Program Files\foo\test3.png"
+     EPS-conv.exe /w /a C:\foo\*.bmp
+</code></pre>
+
+<p>デスクトップなどのショートカットへドラッグ＆ドロップした場合
+もこのように動作します。
+オプションはショートカットのプロパティの「リンク先」に
+あらかじめ書いておけば有効になります。</p>
+
+<h2><a name="console">コンソール版実行ファイル</a></h2>
+
+<p>コンソールですべての作業をしたいという方のために
+コンソール版の実行ファイルepsconv.exeを作成しました。
+EPS-convをインストールしたフォルダにパスを通してください。
+もしくはパスの通った別のフォルダにepsconv.exeとimgctl.hpiを
+コピーしても使用できます。</p>
+
+<p>使い方はEPS-conv.exeの
+<a href="#cmdline">コマンドラインによる起動</a>
+とほぼ同じですが、オプションには
+/aや/wの代わりに以下のものが有効です。</p>
+
+<blockquote>
+<table  border="1" summary="起動時のオプション" >
+<tr>
+<th abbr="オプション" >オプション</th>
+<th abbr="説明" >説明</th>
+</tr>
+<tr>
+<td align="center">/g、/c</td>
+<td>それぞれ白黒、カラーにします。（デフォルトは/g）</td>
+</tr>
+<tr>
+<td align="center">/b0、/b1、/b2、/b3</td>
+<td>それぞれ2、4、16、256階調にします。（デフォルトは/b3）</td>
+</tr>
+<tr>
+<td align="center">/e0、/e1、/e2、/e3、/e4</td>
+<td>それぞれ圧縮なし、ASCII85、RLE圧縮、DCT圧縮、Flate圧縮
+にします。<br>（デフォルトは/e0）</td>
+</tr>
+<tr>
+<td align="center">/q</td><td>DCT圧縮の品質を設定します。
+/e3のときのみ有効。<br>
+（/q1から/q100まで、デフォルトは/q90）</td>
+</tr>
+<tr>
+<td align="center">/r</td><td>解像度を設定します。
+（/r1から/r100まで、デフォルトは/r100）</td>
+</tr>
+<tr>
+<td align="center">/h</td>
+<td>イメージ補間をします。</td>
+</tr>
+<tr>
+<td align="center">/l、/u、/n</td>
+<td>それぞれ左右反転、上下反転、ネガポジ反転をします。</td>
+</tr>
+<tr>
+<td align="center">/p</td>
+<td>Susieプラグインのあるフォルダを指定します。</td>
+</tr>
+<tr>
+<td align="center">/o</td>
+<td>既存のEPSファイルに上書きします。</td>
+</tr>
+<tr>
+<td align="center">/j</td><td>ラッパーモードにします。</td>
+</tr>
+</table>
+</blockquote>
+
+<p>例えば、</p>
+
+<pre><code>     epsconv.exe /c /b2 /n test.bmp test2.jpg
+     epsconv.exe /p"C:\Program Files\Susie" test3.xyz
+     epsconv.exe /e3 /q100 *.bmp *.jpg
+     epsconv.exe /r80 /l *.*
+</code></pre>
+
+<p>のように書いてください。
+<em>相反するオプションを指定した場合には右にあるものが有効になります。
+</em></p>
+
+<p>epsconv.exeと同じフォルダにepsconv.cfgというファイルを作り、
+そこによく使うオプションを指定しておくこともできます。
+書式はコマンドラインとまったく同じです。
+ただし、コマンドラインで直接指定したオプションのほうが
+優先順位は高いです。</p>
+
+<hr>
+
+<h2><a name="support">サポート</a></h2>
+
+<p>このソフトの不具合やご意見ご要望がございましたら
+下記のメールアドレスにお願いします。
+修正する義務は負いませんが
+できるだけ対応したいと思います。</p>
+
+<p>メールアドレス : 
+ｈｔｅｒａ＠ｃｓｃ．ｊｐ
+(半角に直してください)<br>
+最新版配布場所 : 
+<a href="http://hp.vector.co.jp/authors/VA023018/">
+http://hp.vector.co.jp/authors/VA023018/</a></p>
+
+<p><em>不具合や質問の場合には以下の点をお願いします。</em></p>
+
+<ul>
+<li>必ず<a href="#faq">よくある質問</a>を読んでください。</li>
+<li>TeXやPostScriptそのものの質問には答えられません。</li>
+<li>EPS-convの最新版で試してみてください。</li>
+<li>OSのバージョンなど動作させている環境を書き添えてください。</li>
+<li>再現できるサンプルがあればメールに添付してください。</li>
+</ul>
+
+<hr>
+
+<h2><a name="faq">よくある質問</a></h2>
+
+<h3>内容</h3>
+
+<ol>
+<li><a href="#win95">Srexhsp.dllが見つからないというエラー
+が出て起動できない。</a></li>
+<li><a href="#gsview">GSviewをインストールして
+EPSファイルを画面に表示したい。</a></li>
+<li><a href="#gsright">EPSファイルがGSviewでは右端まで表示されない。</a></li>
+<li><a href="#tex">EPSファイルをTeXに貼り付けたい。</a></li>
+<li><a href="#dviout">TeXにカラーのEPSファイルを貼りつけても
+dvioutでは白黒になってしまう。</a></li>
+<li><a href="#dvipdfm">TeXにEPSファイルを貼りつけても
+dvipdfmでは右端が切れてしまう。</a></li>
+<li><a href="#preview">EPSファイルをWordやExcelなどのソフトに
+貼りつけても表示されない。</a></li>
+<li><a href="#bigfile">EPSファイルに変換したら
+元の画像に比べてファイルサイズが巨大になった。</a></li>
+<li><a href="#qualeps">EPSファイルに変換したら画像が劣化した。</a></li>
+<li><a href="#coloreps">EPSファイルに変換したら画像が変色した。</a></li>
+<li><a href="#slowconv">EPSファイルへの変換が遅い。</a></li>
+</ol>
+
+<hr>
+
+<h4><a name="win95">Q. Srexhsp.dllが見つからないというエラー
+が出て起動できない。</a></h4>
+
+<p>初期のWindows95でIE4.0以上がインストールされていない場合に
+起こる可能性があるようです。
+IE4.0以上にアップデートすれば動くようになるかもしれませんが、
+それでもだめな場合にはWindows自体をバージョンアップするしか
+今のところ方法はありません。</p>
+
+<h4><a name="gsview">Q. GSviewをインストールして
+EPSファイルを画面に表示したい。</a></h4>
+
+<p>GhostscriptとGSviewをインストールすれば
+EPSファイルを画面に表示できるようになります。
+インストール方法はトニイさんによる
+<a href="http://www.nsknet.or.jp/~tony/TeX/install/index.htm">
+TeX インストールガイド</a>などを参照してください。
+</p>
+
+<h4><a name="gsright">Q. EPSファイルがGSviewでは右端まで表示されない。</a></h4>
+
+<p>これはGSviewのメニューの[Media]で指定されている
+紙のサイズ（通常はA4）をはみ出しているためです。
+メニューの[Options]の中にあるEPS Clipというところに
+チェックを入れてから開き直してください。
+紙のサイズを無視してEPSファイルの本来の
+大きさで表示してくれます。</p>
+
+<h4><a name="tex">Q. EPSファイルをTeXに貼り付けたい。</a></h4>
+
+<p>詳しい方法はTeXについての本を参照してください。</p>
+
+<p>例えば、</p>
+
+<pre><code>      \documentclass{jarticle}
+
+      \usepackage{graphicx}
+
+      \begin{document}
+
+      \begin{figure}
+      \includegraphics[width=13cm,height=10cm]{sample.eps}
+      \caption{Sample}
+      \end{figure}
+
+      \end{document}
+</code></pre>
+
+<p>のようにしてみてください。
+widthとheightを変えることによって拡大縮小することができます。
+<strong><samp>Package graphics Error: No driver specified.</samp>
+というエラーが出る場合には\usepackage
+の部分を\usepackage[dvips]{graphicx}
+と変更してみてください。</strong></p>
+
+<h4><a name="dviout">Q. TeXにカラーのEPSファイルを貼りつけても
+dvioutでは白黒になってしまう。</a></h4>
+
+<p>dvioutの設定を変更する必要があります。
+まず、dvioutのメニューの[Option]－[Setup Parameters]
+を選んでください。
+DVIOUTのプロパティが出てくるので[Graphic]のタブをクリックしてください。
+GIF：という項目をBMP（full color)やBMP（256 colors)などに変更して
+Saveを押してください。
+詳しくはdvioutのヘルプでパラメータの-GIF：
+の部分を参照してください。</p>
+
+<h4><a name="dvipdfm">Q. TeXにEPSファイルを貼りつけても
+dvipdfmでは右端が切れてしまう。</a></h4>
+
+<p>これはdvipdfmがGhostscriptを使って
+EPSからPDFに変換するときにA4の紙のサイズを
+はみ出してしまうためです。
+以下のように設定を変更する必要があります。
+（よくわからなければdvipdfmを
+最新のものにするだけでもいいです。）
+角藤版のTeXなら普通
+C:\usr\local\share\texmf\dvipdfm
+というフォルダのなかに
+config というファイルがあると思います。
+それをエディタで開いて18行目が
+<code>
+D "gswin32c -q -dNOPAUSE -dBATCH -sPAPERSIZE=a4 ...
+</code>
+などとなっていたら
+<code>
+D "gswin32c -q -dNOPAUSE -dBATCH -sPAPERSIZE=ledger ...
+</code>
+に変更してセーブしてください。</p>
+
+<h4><a name="preview">Q. EPSファイルをWordやExcelなどのソフトに
+貼りつけても表示されない。</a></h4>
+
+<p>これは出力されるEPSファイルに
+プレビュー用の画像イメージが含まれていないためです。
+EPS形式のファイルにはプレビュー用の画像イメージという
+粗い完成予想図がつけられていることがあります。
+WordやExcelなどの多くのソフトは画面に表示する際には
+PostScriptの命令を直接解釈する代わりにこの画像イメージを表示します。
+しかし、TeXに貼り付けるという目的では全く無用ですし、
+形式によっては巨大なファイルになってしまうので
+EPS-drawによる出力にはプレビュー用の画像イメージを付けていません。
+そのため他のソフトで表示しようとしてもうまく行かない
+ということになります。</p>
+
+<p>どうしてもプレビュー用の画像イメージを付けたい場合は
+<a href="#gsview">GSview</a>
+さえあれば簡単にできます。
+まず、出力されたEPSファイルをGSviewで開いてください。
+それからメニューの [Edit]－[Add EPS Preview] を選択してください。
+いくつかの形式が選べますので
+表示させたいソフトが対応しているものを選んでください。
+<em>形式によっては
+ファイルサイズが巨大になることがあるので注意してください。</em></p>
+
+<h4><a name="bigfile">Q. EPSファイルに変換したら
+元の画像に比べてファイルサイズが巨大になった。</a></h4>
+
+<p>これはJPEGやPNGなどの画像形式がもともとデータ圧縮された形式で
+あるのに対して、
+EPSファイルには無圧縮のビットマップで書き込んでいるためです。</p>
+
+<p>対策としては画質と相談しながら
+色の階調や解像度を落とすという方法や
+圧縮オプションを使うという方法があります。</p>
+
+<h4><a name="qualeps">Q. EPSファイルに変換したら画像が劣化した。</a></h4>
+
+<p>解像度を変更したりDCT圧縮を使えばファイルのサイズが小さくなる代わりに
+画像が劣化します。その度合いはパラメーターで調節できます。</p>
+
+<p>それ以外の場合でも一見すると劣化しているように見えるときがあります。
+これは画面表示の時の縮尺や解像度などの問題でそう見えるためで、
+画像データとしてはほとんど劣化していません。
+イメージ補間のオプションを使うとこのような効果を軽減することができます。</p>
+
+<h4><a name="coloreps">Q. EPSファイルに変換したら画像が変色した。</a></h4>
+
+<p>これはJPEGのカラー情報がCMYKで与えられているときに
+起こる可能性があります。
+色空間のCMYKとRGBには完全な対応はないのであきらめてください。</p>
+
+<h4><a name="slowconv">Q. EPSファイルへの変換が遅い。</a></h4>
+
+<p>これはEPS-convがスクリプト言語で開発されている
+ということが根本的な原因ですので、
+これ以上高速にするのは他言語への移植しかありません。
+現状ではとても困難です。</p>
+
+<p>大きい画像ほど時間がかかるので、
+画像を縮小してから変換してみてください。</p>
+
+<hr>
+
+</body>
+</html>

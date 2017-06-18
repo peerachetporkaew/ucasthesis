@@ -1,0 +1,54 @@
+; 汎用インストーラ／アンインストーラ
+; 「EPS-conv」用セットアップ情報ファイル
+
+[Install]
+Title=EPS-conv Version 3.06 のインストール
+TextFile=readme.txt
+InstallDir=EPS-conv
+IsFileDelAfterInst=1
+Program=EPS-conv.exe,
+AllUsers=0
+
+[Files]
+Item1=EPS-conv.exe
+Item2=readme.txt
+Item3=help.htm
+Item4=Srexhsp.dll
+Item5=imgctl.hpi
+Item6=epsconv.exe
+Item7=setup-ts.exe
+Item8=setup-ts.inf
+
+[RmDir]
+
+[Group]
+Value=1
+Info=スタートメニューに「EPS-conv」のグループを作成します。
+GroupName=EPS-conv
+Item1=EPS-conv,EPS-conv.exe
+Item2=EPS-convのヘルプ,help.htm
+Item3=アンインストール,setup-ts.exe,/r
+
+[Startup]
+Value=-1
+
+[Desktop]
+Value=1
+Info=デスクトップにEPS-convのショートカットを作成します。
+Item1=EPS-conv,EPS-conv.exe
+
+[Uninstall]
+Key=EPS-conv
+Name=EPS-conv
+Title=EPS-convのアンインストール
+AllDelete=1
+RebootDlg=0
+IconFile=EPS-conv.exe
+Publisher=H. Terashima
+URLInfoAbout=http://hp.vector.co.jp/authors/VA023018/
+DisplayVersion=3.06
+HelpLink=http://hp.vector.co.jp/authors/VA023018/faq.htm
+URLUpdateInfo=http://hp.vector.co.jp/authors/VA023018/epsconv.htm
+
+[RegKey]
+
